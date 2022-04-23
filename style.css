@@ -1,0 +1,21 @@
+#wasteMap {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	position: absolute !important;
+}
+
+.fileDiv {
+	top: 0px;
+	right: 0px;
+	z-index: 50;
+	position: fixed;
+	background-color: rgba(255, 255, 255,0.5);
+	padding: 15px;
+}

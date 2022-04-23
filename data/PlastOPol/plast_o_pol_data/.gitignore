@@ -1,0 +1,9 @@
+node_modules
+
+plast_data/*
+points_data/*
+pred_data/*
+
+*.json
+# Something for test
+
