@@ -258,7 +258,7 @@ const createPredictionLayers = (from, to, isPredicted, isPoints,category_check) 
         .then(data => {
 			console.log("DBG: " + filePath);
 			console.log("caca");
-            //console.log(data);
+            console.log(data);
             let features = JSON.parse(data.trim());
             createTimeline(features);
             wasteMap.spin(false);
