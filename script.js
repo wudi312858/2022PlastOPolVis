@@ -246,7 +246,7 @@ const createPredictionLayers = (from, to, isPredicted, isPoints,category_check) 
         }
         else{
             if(category_check == "Fishery"){
-                filePath = "pred_data/cells_" + from + "_" + to + "_" + interval + "predict_fish.json";
+                filePath = "./pred_data/cells_" + from + "_" + to + "_" + interval + "predict_fish.json";
             }
         }
         
