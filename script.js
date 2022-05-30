@@ -256,6 +256,7 @@ const createPredictionLayers = (from, to, isPredicted, isPoints,category_check) 
     fetch(filePath)
         .then(response => response.text())
         .then(data => {
+            console.log(data);
             let features = JSON.parse(data.trim());
             createTimeline(features);
             wasteMap.spin(false);
