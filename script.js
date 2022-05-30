@@ -251,12 +251,14 @@ const createPredictionLayers = (from, to, isPredicted, isPoints,category_check) 
         }
         
     }
-
+    
     wasteMap.spin(true);
     fetch(filePath)
         .then(response => response.text())
         .then(data => {
-            console.log(data);
+			console.log("DBG: " + filePath);
+			console.log("caca");
+            //console.log(data);
             let features = JSON.parse(data.trim());
             createTimeline(features);
             wasteMap.spin(false);
