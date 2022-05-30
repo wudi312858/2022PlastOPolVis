@@ -227,6 +227,7 @@ const createLayers = (from, to, isPoints) => {
 
 const createPredictionLayers = (from, to, isPredicted, isPoints,category_check) => {
     let filePath = "";
+    filePath = "data/PlastOPol/plast_o_pol_data/pred_data/cells_" + from + "_" + to + "_" + interval + ".json";
     if (isPoints) {
         filePath = "data/PlastOPol/plast_o_pol_data/points_data/points_" + from + "_" + to + "_" + interval + ".json";
     }
